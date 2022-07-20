@@ -83,11 +83,14 @@ body{
 .menu-btn-style a:hover{
     font-size:20px;
 }
+#red-btn{
+    background-color: #DD0000;
+}
 #last-btn {
-    background-color:brown;
+    background-color:white;
 }
 #last-btn a{
-    color: white;
+    color:black;
 }
 
 /* ----------------------------------------------match time----------------------------------------------- */
