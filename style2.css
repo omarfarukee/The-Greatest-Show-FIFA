@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@200&family=Oswald:wght@500&family=Poppins:wght@500&family=Roboto:wght@300&family=Signika+Negative:wght@500&family=Supermercado+One&family=The+Nautigal:wght@700&family=Ubuntu&display=swap');
 body{
     margin: 0%;
+    font-family: 'Roboto', sans-serif;
    }
    /* <!-- ----------1st section-------------- --> */
 .messi-div{
@@ -33,6 +35,11 @@ body{
     background: #DD0000;
     border-radius: 5px;
     border: none;
+    transition: width 1s, height 1s;
+}
+.btn:hover{
+    width: 180px;
+    height: 60px;
 }
 .btn a{
     text-decoration: none;
@@ -71,6 +78,10 @@ body{
     font-size:25px;
     color: black;
     font-weight: 700;
+    transition: font-size 1s;
+}
+.menu-btn-style a:hover{
+    font-size:20px;
 }
 #last-btn {
     background-color:brown;
@@ -94,6 +105,7 @@ body{
     border-radius: 10px;
     background-color: whitesmoke;
     width: 210px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .vs-fight{
     display: flex;
@@ -141,6 +153,7 @@ hr{
     text-decoration: none;
     font-size: 20px;
     color: gray;
+    font-weight: 700;
 }
 .footer-div a{
 
