@@ -204,8 +204,8 @@ hr{
         text-align: center;
        }
        .half-width{
-        width: 400px;
-        height: 320px;
+        width: 90%;
+        height: 250px;
         margin-left: 6%;
         margin-top:30px;
         /* border: 1px solid red; */
@@ -360,8 +360,8 @@ hr{
        }
        .half-width{
         /* border: 2px solid rebeccapurple; */
-        width: 400px;
-        height: 320px;
+        width: 90%;
+        height: 90%;
         margin-left: 70px;
         margin-top:30px;
     }
