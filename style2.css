@@ -279,14 +279,14 @@ hr{
         border-radius: 10px;
         background-color: whitesmoke;
         width: 80%;
-        margin-left: 3%;
+        margin-left: 1.5%;
     
 
     }
     .vs-fight{
         display: flex;
         column-gap: 10px;
-        padding-left: 15%;
+        padding-left: 13%;
         /*  */
     }
     .vs-fight img{
