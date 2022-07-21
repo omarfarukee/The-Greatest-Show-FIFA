@@ -240,12 +240,14 @@ hr{
     }
     .messi-img{
         /* border: 1px solid green; */
+        width: 100%;
+
     }
     .messi-img img{
         position: relative;
-        top: 30px;
+        top:11%;
         left: 4px;
-        width:450px;
+        width:100%;
         height:90%;
         /* border: 1px solid yellow; */
     }
