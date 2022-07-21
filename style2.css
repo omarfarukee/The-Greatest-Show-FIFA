@@ -196,7 +196,7 @@ hr{
         border-radius: 30px;
         color: white;
         width: 95%;
-        height: 600px;
+        height: 100%;
         margin-left:2.4%;
         margin-top:50px;
         margin-bottom: 30px;
@@ -208,7 +208,7 @@ hr{
         height: 250px;
         margin-left: 6%;
         margin-top:30px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     .half-width h1{
         font-size: 25px;
@@ -244,10 +244,11 @@ hr{
         background-color: white;
         column-gap: 15px;
         border-radius: 10px;
-        width: 95%;
+        width: 90%;
         height: 90%;
-        margin: 30px 20px;
+        margin: 30px 15px;
         padding-bottom: 20px;
+        
         
     }
     .menu-btn-style{
@@ -285,7 +286,8 @@ hr{
     .vs-fight{
         display: flex;
         column-gap: 10px;
-        padding-left: 55px;
+        padding-left: 15%;
+        /*  */
     }
     .vs-fight img{
         width: 100%;
