@@ -23,6 +23,10 @@ body{
 }
 .half-width h1{
     font-size: 45px;
+    color: grey;
+}
+.half-width p{
+    font-weight: 700;
 }
 .messi-img img{
     width: 100%;
@@ -192,7 +196,7 @@ hr{
         border-radius: 30px;
         color: white;
         width: 95%;
-        height: 580px;
+        height: 600px;
         margin-left:2.4%;
         margin-top:50px;
         margin-bottom: 30px;
@@ -202,8 +206,9 @@ hr{
        .half-width{
         width: 400px;
         height: 320px;
-        margin-left: 40px;
+        margin-left: 6%;
         margin-top:30px;
+        /* border: 1px solid red; */
     }
     .half-width h1{
         font-size: 25px;
@@ -213,28 +218,34 @@ hr{
         line-height: 18px;
 
     }
+    /* .messi-img{
+        border: 2px solid yellow;
+
+
+    } */
     .messi-img img{
+        /* border: 2px solid blue; */
         position: relative;
         top: 30px;
-        left: 40px;
+        left: 4px;
         width:450px;
         height:90%;
     }
 
-
+/* ---------------------------three menu bar--------------- */
     .game-detail{
         flex-direction: column;
         row-gap:130px;
         padding-left:0;
     }
     .menu-btn{
+        /* border: 1px solid red; */
         display: column;
         background-color: white;
         column-gap: 15px;
         border-radius: 10px;
-
         width: 95%;
-        height: 80px;
+        height: 90%;
         margin: 30px 20px;
         padding-bottom: 20px;
         
@@ -246,13 +257,7 @@ hr{
         border-radius: 10px;
         border: 0.5px solid black;
     }
-    /* .game-summary{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        column-gap:15px;
-        row-gap: 25px;
-        margin: 0 10px;
-    } */
+   /* game sum-------------------------------------- */
     .game-summary{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -263,6 +268,7 @@ hr{
         margin-top: 5px;
         margin-left: 20px;
         row-gap: 10px;
+        /* border: 2px solid red; */
         
     }
    
@@ -272,14 +278,14 @@ hr{
         border-radius: 10px;
         background-color: whitesmoke;
         width: 80%;
-        margin-left: 23px;
+        margin-left: 3%;
     
 
     }
     .vs-fight{
         display: flex;
         column-gap: 10px;
-        padding-left: 65px;
+        padding-left: 55px;
     }
     .vs-fight img{
         width: 100%;
@@ -291,13 +297,29 @@ hr{
     .time h3{
         font-size: 22px;
     }
-    
+    .view-btn{
+        height: 40px ;
+        width:120px;
+        background: #DD0000;
+        border-radius: 5px;
+        border: none;
+        display: block;
+        margin-left: 40%;
+
+    }
+    .view-btn a{
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+    }
+    /* foooterrrr------------------- */
 
     hr{
         width: 100%;
         margin: 0 -15px;
         
     }
+
     .footer{
     
         background: #161616;
@@ -334,8 +356,10 @@ hr{
         margin-left:2.4%;
         margin-top:50px;
         margin-bottom: 30px;
+        /* border: 2px solid yellow; */
        }
        .half-width{
+        /* border: 2px solid rebeccapurple; */
         width: 400px;
         height: 320px;
         margin-left: 70px;
@@ -349,15 +373,19 @@ hr{
         line-height: 18px;
 
     }
+    .messi-img{
+        /* border: 2px solid red; */
+    }
     .messi-img img{
         position: relative;
         top: 70px;
-        left: 40px;
+        left: 0%;
         width:450px;
         height:82.5%;
+        /* border: 1px solid green; */
     }
 
-
+/* three menu-------------- */
 
 
     .game-detail{
@@ -374,6 +402,7 @@ hr{
         height: 80px;
         margin: 30px 20px;
         padding-bottom: 20px;
+        /* border: 1px solid red; */
         
     }
     .menu-btn-style{
@@ -383,15 +412,17 @@ hr{
         border-radius: 10px;
         border: 0.5px solid black;
     }
+    /* game sun--------------- */
     .game-summary{
         grid-template-columns: repeat(2, 1fr);
         column-gap: 0;
-
-        width: 100%;
-        height: 100%;
-        margin-top: 0;
-        margin-left: 7%;
+        padding-left: 0%;
+        width: 96%;
+        height:700px;
+        margin-top: 2%;
+        margin-left: 1.5%;
         row-gap: 2%;
+        /* border: 2px solid yellow; */
         
     }
     .jar-fra-match{
@@ -400,6 +431,8 @@ hr{
         border-radius: 10px;
         background-color: whitesmoke;
         width: 210px;
+        margin-left: 13%;
+
         box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     }
     .vs-fight{
